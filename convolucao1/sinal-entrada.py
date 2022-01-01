@@ -3,8 +3,6 @@ from numpy import *
 from pylab import *
  
 ################################################################################
-# Funções auxiliares
-
 # Impulso unitário
 def delta(n):
     return where(n==0, 1, 0)
